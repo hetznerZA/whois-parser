@@ -9,7 +9,7 @@ task :default => :spec
 task :test => :spec
 
 spec = Gem::Specification.new do |s|
-  s.name              = "whois-parser"
+  s.name              = "hetzner-whois-parser"
   s.version           = Whois::Parser::VERSION
   s.summary           = "A pure Ruby WHOIS parser."
   s.description       = "Whois Parser is a WHOIS parser written in pure Ruby. It can parse and convert responses into easy-to-use Ruby objects."
